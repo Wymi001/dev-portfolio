@@ -151,7 +151,7 @@ body {
     justify-content: center;
   }
   .section-b .btn-box a {
-    padding: 15px 35px;
+    padding: 15px 25px;
     margin: 0 20px;
     background-color: black;
     border: 1px solid goldenrod;
@@ -262,8 +262,7 @@ body {
   .section-d .box-1 .project-image img {
     height: 200px;
     width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    background-color: aqua;
   }
   .section-d .box-1 .project-information {
     background-color: #555;
@@ -272,6 +271,7 @@ body {
   }
   .section-d .box-1 .project-information p {
     font-size: 1.7rem;
+    margin-bottom: 15px;
   }
   .section-d .box-1 .project-information p a {
     color: goldenrod;
@@ -436,7 +436,7 @@ body {
     justify-content: center;
   }
   .section-b .btn-box a {
-    padding: 15px 35px;
+    padding: 15px 25px;
     margin: 0 20px;
     background-color: black;
     border: 1px solid goldenrod;
@@ -552,8 +552,7 @@ body {
   .section-d .box-1 .project-image img {
     height: 200px;
     width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    background-color: aqua;
   }
   .section-d .box-1 .project-information {
     background-color: #555;
@@ -562,6 +561,7 @@ body {
   }
   .section-d .box-1 .project-information p {
     font-size: 1.7rem;
+    margin-bottom: 15px;
   }
   .section-d .box-1 .project-information p a {
     color: goldenrod;
@@ -735,7 +735,7 @@ body {
     justify-content: center;
   }
   .section-b .btn-box a {
-    padding: 15px 35px;
+    padding: 15px 25px;
     margin: 0 20px;
     background-color: black;
     border: 1px solid goldenrod;
@@ -831,6 +831,7 @@ body {
   .section-d .box-1 .project-image img {
     height: 200px;
     width: 100%;
+    background-color: aqua;
   }
   .section-d .box-1 .project-information {
     background-color: #555;
@@ -839,6 +840,7 @@ body {
   }
   .section-d .box-1 .project-information p {
     font-size: 1.5rem;
+    margin-bottom: 15px;
   }
   .section-d .box-1 .project-information p a {
     color: goldenrod;
