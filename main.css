@@ -954,7 +954,7 @@ body {
   }
   .section-d .box-1 {
     height: 300px;
-    border: 5px solid #555;
+    border: 5px solid #333;
     border-radius: 5px;
     overflow: hidden;
     margin-bottom: 20px;
@@ -965,7 +965,7 @@ body {
     background-color: aqua;
   }
   .section-d .box-1 .project-information {
-    background-color: #555;
+    background-color: #333;
     padding: 10px;
     height: 100px;
   }
