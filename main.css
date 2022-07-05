@@ -7,6 +7,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #333;
 }
 
 @media (min-width: 350px) and (max-width: 600px) {
@@ -24,7 +25,8 @@ body {
   }
   nav .brandname a {
     color: #999;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
   }
   nav .brandname a:hover {
     text-decoration: none;
@@ -57,38 +59,23 @@ body {
     color: #fff;
     text-decoration: none;
   }
-  nav .dropdown-icon {
+  nav #open-nav {
     color: #999;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
-  nav .close-icon {
+  nav #close-nav {
     color: #999;
-    font-size: 2rem;
+    font-size: 2.5rem;
     display: none;
   }
 
   .section-a {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(./images/infinitech-removebg-preview.png) no-repeat top/cover;
+    background-color: #222;
     height: 100vh;
     text-align: center;
-    position: relative;
-  }
-  .section-a .links {
-    position: -webkit-sticky;
-    position: sticky;
-    display: flex;
-    justify-content: center;
-    top: 0;
-    background-color: #333;
-    z-index: 10;
-  }
-  .section-a .links a {
-    color: #999;
-    font-size: 2rem;
-    margin-right: 10px;
   }
   .section-a .wrapper {
-    margin: 17vh auto;
+    margin: 10vh auto;
   }
   .section-a .wrapper h3, .section-a .wrapper h2 {
     color: #fff;
@@ -98,8 +85,8 @@ body {
     font-size: 5.5rem;
     font-weight: bold;
   }
-  .section-a .wrapper button {
-    background-color: black;
+  .section-a .wrapper .btn {
+    background-color: #000;
     border: 1px solid goldenrod;
     padding: 15px 35px;
     border-radius: 5px;
@@ -107,36 +94,30 @@ body {
     margin-top: 20px;
   }
   .section-a .image {
-    display: none;
+    display: block;
+    background-color: goldenrod;
+    border: 2px solid goldenrod;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: -30px auto;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 
   .section-b {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./images/portfolio-asset5.jpg) no-repeat center/cover;
     min-height: 80vh;
-    padding: 0 20px 50px 20px;
+    padding: 20px 30px;
     text-align: center;
-  }
-  .section-b .links {
-    position: -webkit-sticky;
-    position: sticky;
-    display: flex;
-    justify-content: center;
-    top: 0;
-    background-color: #333;
-    z-index: 10;
-  }
-  .section-b .links a {
-    color: #999;
-    font-size: 2rem;
-    margin-right: 10px;
   }
   .section-b h1 {
     color: goldenrod;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: bold;
   }
   .section-b hr {
-    width: 20%;
+    width: 40%;
     margin: 10px auto;
     color: #999;
   }
@@ -151,7 +132,7 @@ body {
     justify-content: center;
   }
   .section-b .btn-box a {
-    padding: 15px 25px;
+    padding: 15px;
     margin: 0 20px;
     background-color: black;
     border: 1px solid goldenrod;
@@ -168,20 +149,6 @@ body {
     min-height: 100vh;
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./images/portfolio-asset1.jpg) no-repeat center/cover;
-  }
-  .section-c .links {
-    position: -webkit-sticky;
-    position: sticky;
-    display: flex;
-    justify-content: center;
-    top: 0;
-    background-color: #333;
-    z-index: 10;
-  }
-  .section-c .links a {
-    color: #999;
-    font-size: 2rem;
-    margin-right: 10px;
   }
   .section-c .what-we-do h1 {
     color: goldenrod;
@@ -236,18 +203,24 @@ body {
 
   .section-d {
     min-height: 100vh;
-    background-color: #333;
+    background-color: #222;
     padding: 50px 20px;
     text-align: center;
   }
   .section-d h1 {
-    color: #999;
-    font-size: 3.5rem;
+    color: goldenrod;
+    font-size: 4rem;
     font-weight: bold;
+  }
+  .section-d hr {
+    color: #999;
+    width: 50%;
+    margin: 20px auto;
   }
   .section-d p {
     color: #999;
     margin-bottom: 50px;
+    font-size: 1.7rem;
   }
   .section-d .project-box {
     display: grid;
@@ -271,7 +244,7 @@ body {
   }
   .section-d .box-1 .project-information p {
     font-size: 1.7rem;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   .section-d .box-1 .project-information p a {
     color: goldenrod;
@@ -281,10 +254,103 @@ body {
     text-decoration: none;
   }
 
-  .footer {
+  .section-e {
     background-color: #222;
-    min-height: 100px;
+    min-height: 100vh;
+    width: 100%;
     padding: 30px;
+    text-align: center;
+  }
+  .section-e h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: goldenrod;
+  }
+  .section-e hr {
+    width: 60%;
+    margin: 20px auto;
+    color: #999;
+  }
+  .section-e .contact-form {
+    min-height: 70vh;
+    width: 100%;
+    margin: 50px auto;
+    border: 2px solid goldenrod;
+    padding: 20px;
+    text-align: left;
+  }
+  .section-e label {
+    display: block;
+    color: #999;
+    font-size: 1.7rem;
+  }
+  .section-e input,
+.section-e textarea {
+    border: 2px solid goldenrod;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  .section-e .btn {
+    background-color: #111;
+    color: #999;
+    padding: 15px 30px;
+    border: 1px solid goldenrod;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .section-f {
+    background-color: #222;
+    padding: 50px 30px;
+    text-align: center;
+  }
+  .section-f h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: goldenrod;
+  }
+  .section-f hr {
+    width: 30%;
+    color: #999;
+    margin: 20px auto;
+  }
+  .section-f p {
+    font-size: 1.7rem;
+    color: #999;
+    margin-bottom: 30px;
+  }
+  .section-f .tiidelab-img-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 40px auto;
+    grid-gap: 10px;
+  }
+  .section-f .tiidelab-img-container .tiidelab-image {
+    height: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .section-f .tiidelab-img-container .tiidelab-image img {
+    height: 300px;
+  }
+  .section-f .btn {
+    color: #999;
+    background-color: #111;
+    border: 1px solid goldenrod;
+    padding: 15px 30px;
+    margin-top: 30px;
+    font-size: 1.7rem;
+  }
+
+  .footer {
+    background-color: #111;
+    min-height: 100px;
+    padding: 10px 30px;
     text-align: center;
     color: #999;
   }
@@ -308,7 +374,8 @@ body {
 @media (min-width: 601px) and (max-width: 1000px) {
   nav {
     display: flex;
-    padding: 0 30px;
+    flex-direction: column;
+    padding: 10px 30px;
     justify-content: space-between;
     align-items: center;
     min-height: 100px;
@@ -331,7 +398,7 @@ body {
     list-style: none;
   }
   nav ul li {
-    margin-left: 50px;
+    margin-left: 30px;
   }
   nav ul a {
     font-size: 1.7rem;
@@ -354,22 +421,8 @@ body {
 
   .section-a {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(./images/workspace.jpg) no-repeat center/cover;
-    min-height: 70vh;
+    min-height: 100vh;
     text-align: center;
-  }
-  .section-a .links {
-    position: -webkit-sticky;
-    position: sticky;
-    display: flex;
-    justify-content: center;
-    top: 0;
-    background-color: #333;
-    z-index: 10;
-  }
-  .section-a .links a {
-    color: #999;
-    font-size: 2rem;
-    margin-right: 10px;
   }
   .section-a .wrapper {
     margin: 25vh auto;
@@ -382,7 +435,7 @@ body {
     font-size: 5.5rem;
     font-weight: bold;
   }
-  .section-a .wrapper button {
+  .section-a .wrapper .btn {
     background-color: black;
     border: 1px solid goldenrod;
     padding: 15px 35px;
@@ -400,23 +453,9 @@ body {
     padding: 30px;
     text-align: center;
   }
-  .section-b .links {
-    position: -webkit-sticky;
-    position: sticky;
-    display: flex;
-    justify-content: center;
-    top: 0;
-    background-color: #333;
-    z-index: 10;
-  }
-  .section-b .links a {
-    color: #999;
-    font-size: 2rem;
-    margin-right: 10px;
-  }
   .section-b h1 {
     color: goldenrod;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: bold;
   }
   .section-b hr {
@@ -525,18 +564,24 @@ body {
 
   .section-d {
     min-height: 100vh;
-    background-color: #333;
+    background-color: #222;
     padding: 30px;
     text-align: center;
   }
   .section-d h1 {
-    color: #999;
-    font-size: 3.5rem;
+    color: goldenrod;
+    font-size: 4rem;
     font-weight: bold;
+  }
+  .section-d hr {
+    color: #999;
+    width: 50%;
+    margin: 20px auto;
   }
   .section-d p {
     color: #999;
     margin-bottom: 50px;
+    font-size: 1.7rem;
   }
   .section-d .project-box {
     display: grid;
@@ -561,7 +606,7 @@ body {
   }
   .section-d .box-1 .project-information p {
     font-size: 1.7rem;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   .section-d .box-1 .project-information p a {
     color: goldenrod;
@@ -569,6 +614,99 @@ body {
   }
   .section-d .box-1 .project-information p a:hover {
     text-decoration: none;
+  }
+
+  .section-e {
+    background-color: #222;
+    min-height: 100vh;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+  }
+  .section-e h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: goldenrod;
+  }
+  .section-e hr {
+    width: 30%;
+    margin: 20px auto;
+    color: #999;
+  }
+  .section-e .contact-form {
+    min-height: 70vh;
+    width: 80%;
+    margin: 50px auto;
+    border: 2px solid goldenrod;
+    padding: 30px;
+    text-align: left;
+  }
+  .section-e label {
+    display: block;
+    color: #999;
+    font-size: 1.7rem;
+  }
+  .section-e input,
+.section-e textarea {
+    border: 2px solid goldenrod;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  .section-e .btn {
+    background-color: #111;
+    color: #999;
+    padding: 15px 30px;
+    border: 1px solid goldenrod;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .section-f {
+    background-color: #222;
+    padding: 50px 30px;
+    text-align: center;
+  }
+  .section-f h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: goldenrod;
+  }
+  .section-f hr {
+    width: 30%;
+    color: #999;
+    margin: 20px auto;
+  }
+  .section-f p {
+    font-size: 1.7rem;
+    color: #999;
+    margin-bottom: 30px;
+  }
+  .section-f .tiidelab-img-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px auto;
+    grid-gap: 10px;
+  }
+  .section-f .tiidelab-img-container .tiidelab-image {
+    height: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .section-f .tiidelab-img-container .tiidelab-image img {
+    height: 300px;
+  }
+  .section-f .btn {
+    color: #999;
+    background-color: #111;
+    border: 1px solid goldenrod;
+    padding: 15px 30px;
+    margin-top: 30px;
+    font-size: 1.7rem;
   }
 
   .footer {
@@ -625,6 +763,9 @@ body {
     color: #999;
     padding: 10px auto;
   }
+  nav ul a:active {
+    text-decoration: underline;
+  }
   nav ul a:hover {
     color: #fff;
     text-decoration: none;
@@ -671,7 +812,7 @@ body {
     font-size: 5.5rem;
     font-weight: bold;
   }
-  .section-a .wrapper button {
+  .section-a .wrapper .btn {
     background-color: black;
     border: 1px solid goldenrod;
     padding: 15px 35px;
@@ -696,22 +837,8 @@ body {
   .section-b {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./images/portfolio-asset6.jpg) no-repeat center/cover;
     min-height: 80vh;
-    padding: 50px 100px;
+    padding: 100px;
     text-align: center;
-  }
-  .section-b .links {
-    position: -webkit-sticky;
-    position: sticky;
-    display: flex;
-    justify-content: center;
-    top: 0;
-    background-color: #333;
-    z-index: 10;
-  }
-  .section-b .links a {
-    color: #999;
-    font-size: 2rem;
-    margin-right: 10px;
   }
   .section-b h1 {
     color: goldenrod;
@@ -748,7 +875,7 @@ body {
   }
 
   .section-c {
-    padding: 10px 100px 50px 100px;
+    padding: 100px 100px 50px 100px;
     min-height: 100vh;
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./images/portfolio-asset1.jpg) no-repeat center/cover;
@@ -809,17 +936,23 @@ body {
   .section-d {
     min-height: 100vh;
     background-color: #222;
-    padding: 50px 100px;
+    padding: 100px 100px;
     text-align: center;
   }
   .section-d h1 {
-    color: #999;
-    font-size: 3.5rem;
+    color: goldenrod;
+    font-size: 4rem;
     font-weight: bold;
+  }
+  .section-d hr {
+    color: #999;
+    width: 20%;
+    margin: 20px auto;
   }
   .section-d p {
     color: #999;
     margin-bottom: 50px;
+    font-size: 1.7rem;
   }
   .section-d .box-1 {
     height: 300px;
@@ -840,7 +973,7 @@ body {
   }
   .section-d .box-1 .project-information p {
     font-size: 1.5rem;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   .section-d .box-1 .project-information p a {
     color: goldenrod;
@@ -848,6 +981,98 @@ body {
   }
   .section-d .box-1 .project-information p a:hover {
     text-decoration: none;
+  }
+
+  .section-e {
+    background-color: #222;
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px;
+    text-align: center;
+  }
+  .section-e h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: goldenrod;
+  }
+  .section-e hr {
+    width: 30%;
+    margin: 20px auto;
+    color: #999;
+  }
+  .section-e .contact-form {
+    min-height: 70vh;
+    width: 60%;
+    margin: 50px auto;
+    border: 2px solid goldenrod;
+    padding: 30px;
+    text-align: left;
+  }
+  .section-e label {
+    display: block;
+    color: #999;
+    font-size: 1.7rem;
+  }
+  .section-e input, .section-e textarea {
+    border: 2px solid goldenrod;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  .section-e .btn {
+    background-color: #111;
+    color: #999;
+    padding: 15px 30px;
+    border: 1px solid goldenrod;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .section-f {
+    background-color: #222;
+    padding: 100px 100px;
+    text-align: center;
+  }
+  .section-f h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: goldenrod;
+  }
+  .section-f hr {
+    width: 30%;
+    color: #999;
+    margin: 20px auto;
+  }
+  .section-f p {
+    font-size: 1.7rem;
+    color: #999;
+    margin-bottom: 30px;
+  }
+  .section-f .tiidelab-img-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px auto;
+    grid-gap: 10px;
+  }
+  .section-f .tiidelab-img-container .tiidelab-image {
+    height: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .section-f .tiidelab-img-container .tiidelab-image img {
+    height: 300px;
+  }
+  .section-f .btn {
+    color: #999;
+    background-color: #111;
+    border: 1px solid goldenrod;
+    padding: 15px 30px;
+    margin-top: 30px;
+    font-size: 1.7rem;
   }
 
   .footer {
