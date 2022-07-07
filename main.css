@@ -38,9 +38,10 @@ body {
   nav ul {
     position: absolute;
     list-style: none;
+    text-align: center;
     top: 100px;
     right: 0;
-    background-color: rgb(46, 45, 45);
+    background-color: #333;
     width: 100%;
     padding: 10px;
     z-index: 1;
@@ -51,7 +52,7 @@ body {
     padding: 15px;
   }
   nav ul li:hover {
-    background-color: #444;
+    background-color: #222;
   }
   nav ul a {
     font-size: 1.7rem;
@@ -60,7 +61,9 @@ body {
   }
   nav ul a:hover {
     color: #fff;
-    text-decoration: none;
+    -webkit-text-decoration: underline goldenrod 2px;
+            text-decoration: underline goldenrod 2px;
+    text-underline-offset: 0.5rem;
   }
   nav #open-nav {
     color: #999;
@@ -135,8 +138,8 @@ body {
     justify-content: center;
   }
   .section-b .btn-box a {
-    padding: 15px;
-    margin: 0 20px;
+    padding: 15px 10px;
+    margin: 0 10px;
     background-color: black;
     border: 1px solid goldenrod;
     border-radius: 5px;
@@ -413,7 +416,9 @@ body {
   }
   nav ul a:hover {
     color: #fff;
-    text-decoration: none;
+    -webkit-text-decoration: underline goldenrod 3px;
+            text-decoration: underline goldenrod 3px;
+    text-underline-offset: 0.5rem;
   }
   nav #open-nav {
     color: #999;
@@ -775,7 +780,9 @@ body {
   }
   nav ul a:hover {
     color: #fff;
-    text-decoration: none;
+    -webkit-text-decoration: underline goldenrod 3px;
+            text-decoration: underline goldenrod 3px;
+    text-underline-offset: 0.5rem;
   }
   nav #open-nav {
     color: #999;
@@ -1100,5 +1107,41 @@ body {
   }
   .footer p a {
     color: goldenrod;
+  }
+
+  @-webkit-keyframes underline {
+    0% {
+      width: 0;
+    }
+    25% {
+      width: 25%;
+    }
+    50% {
+      width: 50%;
+    }
+    75% {
+      width: 75%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+  @keyframes underline {
+    0% {
+      width: 0;
+    }
+    25% {
+      width: 25%;
+    }
+    50% {
+      width: 50%;
+    }
+    75% {
+      width: 75%;
+    }
+    100% {
+      width: 100%;
+    }
   }
 }/*# sourceMappingURL=main.css.map */
