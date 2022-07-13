@@ -6,9 +6,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-// html {
-//   scroll-behavior: smooth;
-// }
+
 body{
   font-family: 'Poppins', sans-serif;
   background-color: #333;
@@ -60,6 +58,7 @@ nav{
           padding: 15px;
           &:hover{
             background-color: #222;
+            transition: all 0.3s ease-in;
           }
         }
 
@@ -72,6 +71,7 @@ nav{
             color: #fff;
             text-decoration: underline goldenrod 2px;
             text-underline-offset: 0.5rem;
+            transition: all 0.3s ease-in;
           }
         }
       }

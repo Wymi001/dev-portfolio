@@ -54,6 +54,7 @@ body {
   }
   nav ul li:hover {
     background-color: #222;
+    transition: all 0.3s ease-in;
   }
   nav ul a {
     font-size: 1.7rem;
@@ -65,6 +66,7 @@ body {
     -webkit-text-decoration: underline goldenrod 2px;
             text-decoration: underline goldenrod 2px;
     text-underline-offset: 0.5rem;
+    transition: all 0.3s ease-in;
   }
   nav #open-nav {
     color: #999;
