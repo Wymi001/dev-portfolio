@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -74,7 +75,6 @@ body {
     font-size: 2.5rem;
     display: none;
   }
-
   .section-a {
     background-color: #222;
     height: 100vh;
@@ -110,7 +110,6 @@ body {
     -o-object-fit: cover;
        object-fit: cover;
   }
-
   .section-b {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./images/portfolio-asset5.jpg) no-repeat center/cover;
     min-height: 80vh;
@@ -149,7 +148,6 @@ body {
     color: #fff;
     text-decoration: none;
   }
-
   .section-c {
     padding: 20px 20px 50px 20px;
     min-height: 100vh;
@@ -206,7 +204,6 @@ body {
   .section-c .grid-container .grid-item-4 {
     background: linear-gradient(rgba(72, 3, 74, 0.9), rgba(225, 88, 237, 0.7)), url(./images/portfolio-asset5.jpg) no-repeat center/cover;
   }
-
   .section-d {
     min-height: 100vh;
     background-color: #222;
@@ -259,7 +256,6 @@ body {
   .section-d .box-1 .project-information p a:hover {
     text-decoration: none;
   }
-
   .section-e {
     background-color: #222;
     min-height: 100vh;
@@ -308,7 +304,6 @@ body {
     margin-top: 30px;
     width: 100%;
   }
-
   .section-f {
     background-color: #222;
     padding: 50px 30px;
@@ -352,7 +347,6 @@ body {
     margin-top: 30px;
     font-size: 1.7rem;
   }
-
   .footer {
     background-color: #111;
     min-height: 100px;
@@ -430,7 +424,6 @@ body {
     font-size: 2.5rem;
     display: none;
   }
-
   .section-a {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(./images/workspace.jpg) no-repeat center/cover;
     min-height: 100vh;
@@ -458,7 +451,6 @@ body {
   .section-a .image {
     display: none;
   }
-
   .section-b {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./images/portfolio-asset6.jpg) no-repeat center/cover;
     min-height: 80vh;
@@ -497,7 +489,6 @@ body {
   .section-b .btn-box a:hover {
     color: #fff;
   }
-
   .section-c {
     padding: 30px;
     min-height: 100vh;
@@ -573,7 +564,6 @@ body {
   .section-c .grid-container .grid-item-4 {
     background: linear-gradient(rgba(72, 3, 74, 0.9), rgba(225, 88, 237, 0.7)), url(./images/portfolio-asset5.jpg) no-repeat center/cover;
   }
-
   .section-d {
     min-height: 100vh;
     background-color: #222;
@@ -627,7 +617,6 @@ body {
   .section-d .box-1 .project-information p a:hover {
     text-decoration: none;
   }
-
   .section-e {
     background-color: #222;
     min-height: 100vh;
@@ -676,7 +665,6 @@ body {
     margin-top: 30px;
     width: 100%;
   }
-
   .section-f {
     background-color: #222;
     padding: 50px 30px;
@@ -720,7 +708,6 @@ body {
     margin-top: 30px;
     font-size: 1.7rem;
   }
-
   .footer {
     background-color: #111;
     min-height: 100px;
@@ -794,7 +781,6 @@ body {
     font-size: 2.5rem;
     display: none;
   }
-
   .section-a {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(./images/workspace.jpg) no-repeat center/cover;
     min-height: 100vh;
@@ -848,7 +834,6 @@ body {
     -o-object-fit: cover;
        object-fit: cover;
   }
-
   .section-b {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./images/portfolio-asset6.jpg) no-repeat center/cover;
     min-height: 80vh;
@@ -888,7 +873,6 @@ body {
     text-decoration: none;
     color: #fff;
   }
-
   .section-c {
     padding: 100px 100px 50px 100px;
     min-height: 100vh;
@@ -947,7 +931,6 @@ body {
   .section-c .grid-container .grid-item-4 {
     background: linear-gradient(rgba(72, 3, 74, 0.9), rgba(225, 88, 237, 0.7)), url(./images/workspace.jpg) no-repeat center/cover;
   }
-
   .section-d {
     min-height: 100vh;
     background-color: #222;
@@ -997,7 +980,6 @@ body {
   .section-d .box-1 .project-information p a:hover {
     text-decoration: none;
   }
-
   .section-e {
     background-color: #222;
     min-height: 100vh;
@@ -1045,7 +1027,6 @@ body {
     margin-top: 30px;
     width: 100%;
   }
-
   .section-f {
     background-color: #222;
     padding: 100px 100px;
@@ -1089,7 +1070,6 @@ body {
     margin-top: 30px;
     font-size: 1.7rem;
   }
-
   .footer {
     background-color: #111;
     min-height: 100px;
@@ -1108,7 +1088,6 @@ body {
   .footer p a {
     color: goldenrod;
   }
-
   @-webkit-keyframes underline {
     0% {
       width: 0;
@@ -1126,7 +1105,6 @@ body {
       width: 100%;
     }
   }
-
   @keyframes underline {
     0% {
       width: 0;
