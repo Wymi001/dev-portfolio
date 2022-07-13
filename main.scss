@@ -48,6 +48,7 @@ nav{
         top: 100px;
         right: 0;
         background-color: #333;
+        // background-color: rgba($color: #333, $alpha: 0.8);
         width: 100%;
         padding: 10px;
         z-index: 1;
@@ -79,11 +80,13 @@ nav{
       #open-nav {
         color: #999;
         font-size: 2.5rem;
+        color: goldenrod;
       }
       #close-nav {
         color: #999;
         font-size: 2.5rem;
         display: none;
+        color: goldenrod;
       }
       
 }
