@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 body{
@@ -25,6 +24,7 @@ nav{
       background-color: rgb(46, 45, 45);
       color: #999;
       border-bottom: #555 solid 1px;
+      transition: all 0.3s ease-in;
 
       .brandname a{
         color: #999;
@@ -53,6 +53,7 @@ nav{
         z-index: 1;
         border-bottom: #555 solid 1px;
         display: none; //to be revealed with JS
+        transition: all 0.5s ease-in;
 
         li{
           padding: 15px;
@@ -468,6 +469,7 @@ a{
               color: #fff;
               text-decoration: underline goldenrod 3px;
               text-underline-offset: 0.5rem;
+              transition: all 0.3s ease-in;
             }
           }
         }
@@ -893,6 +895,7 @@ a{
               color: #fff;
               text-decoration: underline goldenrod 3px;
               text-underline-offset: 0.5rem;
+              transition: all 0.3s ease-in;
             }
           }
         }
