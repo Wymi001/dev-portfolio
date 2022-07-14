@@ -116,12 +116,50 @@ body {
        object-fit: cover;
   }
   .section-b {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./images/portfolio-asset5.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./images/portfolio-asset6.jpg) no-repeat center/cover;
     min-height: 80vh;
     padding: 20px 30px;
-    text-align: center;
+  }
+  .section-b h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+  .section-b h3 {
+    color: #999;
+  }
+  .section-b .more-about-me .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  .section-b .more-about-me .heading h3 {
+    color: #fff;
+    font-size: 2rem;
+  }
+  .section-b .more-about-me .heading hr {
+    width: 200px;
+    margin-left: 20px;
+    color: #999;
+    display: inline;
+  }
+  .section-b .more-about-me p {
+    color: #999;
+    font-size: 1.7rem;
+    line-height: 2;
+  }
+  .section-b .more-about-me ul {
+    color: #999;
+    list-style-type: square;
+    line-height: 2;
+    font-size: 1.7rem;
+  }
+  .section-b .more-about-me h3 {
+    font-size: 2rem;
   }
   .section-b h1 {
+    text-align: center;
     color: goldenrod;
     font-size: 4rem;
     font-weight: bold;
@@ -461,12 +499,50 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./images/portfolio-asset6.jpg) no-repeat center/cover;
     min-height: 80vh;
     padding: 30px;
-    text-align: center;
+  }
+  .section-b h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+  .section-b h3 {
+    color: #999;
+  }
+  .section-b .more-about-me .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  .section-b .more-about-me .heading h3 {
+    color: #fff;
+    font-size: 2rem;
+  }
+  .section-b .more-about-me .heading hr {
+    width: 250px;
+    margin-left: 20px;
+    color: #999;
+    display: inline;
+  }
+  .section-b .more-about-me p {
+    color: #999;
+    font-size: 1.7rem;
+    line-height: 2;
+  }
+  .section-b .more-about-me ul {
+    color: #999;
+    list-style-type: square;
+    line-height: 2;
+    font-size: 1.7rem;
+  }
+  .section-b .more-about-me h3 {
+    font-size: 2rem;
   }
   .section-b h1 {
     color: goldenrod;
     font-size: 4rem;
     font-weight: bold;
+    text-align: center;
   }
   .section-b hr {
     width: 40%;
@@ -845,12 +921,50 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./images/portfolio-asset6.jpg) no-repeat center/cover;
     min-height: 80vh;
     padding: 100px;
-    text-align: center;
+  }
+  .section-b h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+  .section-b h3 {
+    color: #999;
+  }
+  .section-b .more-about-me .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  .section-b .more-about-me .heading h3 {
+    color: #fff;
+    font-size: 2rem;
+  }
+  .section-b .more-about-me .heading hr {
+    width: 250px;
+    margin-left: 20px;
+    color: #999;
+    display: inline;
+  }
+  .section-b .more-about-me p {
+    color: #999;
+    font-size: 1.7rem;
+    line-height: 2;
+  }
+  .section-b .more-about-me ul {
+    color: #999;
+    list-style-type: square;
+    line-height: 2;
+    font-size: 1.7rem;
+  }
+  .section-b .more-about-me h3 {
+    font-size: 2rem;
   }
   .section-b h1 {
     color: goldenrod;
     font-size: 4rem;
     font-weight: bold;
+    text-align: center;
   }
   .section-b hr {
     width: 20%;
@@ -1094,39 +1208,5 @@ body {
   }
   .footer p a {
     color: goldenrod;
-  }
-  @-webkit-keyframes underline {
-    0% {
-      width: 0;
-    }
-    25% {
-      width: 25%;
-    }
-    50% {
-      width: 50%;
-    }
-    75% {
-      width: 75%;
-    }
-    100% {
-      width: 100%;
-    }
-  }
-  @keyframes underline {
-    0% {
-      width: 0;
-    }
-    25% {
-      width: 25%;
-    }
-    50% {
-      width: 50%;
-    }
-    75% {
-      width: 75%;
-    }
-    100% {
-      width: 100%;
-    }
   }
 }/*# sourceMappingURL=main.css.map */

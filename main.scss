@@ -14,17 +14,17 @@ body{
 
   @media (min-width: 350px) and (max-width: 600px) {
 nav{
-      position: relative;
-      padding: 0 30px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      min-height: 100px;
-      max-width: 100%;
-      background-color: rgb(46, 45, 45);
-      color: #999;
-      border-bottom: #555 solid 1px;
-      transition: all 0.3s ease-in;
+  position: relative;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+  max-width: 100%;
+  background-color: rgb(46, 45, 45);
+  color: #999;
+  border-bottom: #555 solid 1px;
+  transition: all 0.3s ease-in;
 
       .brandname a{
         color: #999;
@@ -128,12 +128,56 @@ nav{
   
 }
 .section-b{
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./images/portfolio-asset5.jpg) no-repeat center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./images/portfolio-asset6.jpg) no-repeat center/cover;
   min-height: 80vh;
   padding: 20px 30px;
-  text-align: center;
+  // text-align: center;
 
+  h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+  h3 {
+    color: #999;
+  }
+  .more-about-me {
+    .heading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height:50px;
+
+      h3 {
+        color: #fff;
+        font-size: 2rem;
+      }
+
+      hr {
+        width: 200px;
+        margin-left: 20px;
+        color: #999;
+        display: inline;
+      }
+    }
+    p {
+      color: #999;
+      font-size: 1.7rem;
+      line-height: 2;
+    }
+    ul {
+      // border: 1px solid red;
+      color: #999;
+      list-style-type: square;
+      line-height: 2;
+      font-size: 1.7rem;
+    }
+    h3 {
+      font-size: 2rem;
+    }
+  }
   h1{
+    text-align: center;
     color: goldenrod;
     font-size: 4rem;
     font-weight: bold;
@@ -526,12 +570,62 @@ a{
       background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./images/portfolio-asset6.jpg) no-repeat center/cover;
       min-height: 80vh;
       padding: 30px;
-      text-align: center;
+      // text-align: center;
+
+      h2 {
+          color: #fff;
+          font-size: 2.5rem;
+          font-weight: bolder;
+        }
+      
+        h3 {
+          color: #999;
+        }
+      
+        .more-about-me {
+          .heading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+      
+            h3 {
+              color: #fff;
+              font-size: 2rem;
+            }
+      
+            hr {
+              width: 250px;
+              margin-left: 20px;
+              color: #999;
+              display: inline;
+            }
+          }
+      
+          p {
+            color: #999;
+            font-size: 1.7rem;
+            line-height: 2;
+          }
+      
+          ul {
+            // border: 1px solid red;
+            color: #999;
+            list-style-type: square;
+            line-height: 2;
+            font-size: 1.7rem;
+          }
+      
+          h3 {
+            font-size: 2rem;
+          }
+        }
 
   h1{
     color: goldenrod;
     font-size: 4rem;
     font-weight: bold;
+    text-align: center;
   }
   hr{
     width: 40%;
@@ -983,12 +1077,62 @@ a{
       background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./images/portfolio-asset6.jpg) no-repeat center/cover;
       min-height: 80vh;
       padding: 100px;
-      text-align: center;
+      // text-align: center;
+
+      h2 {
+          color: #fff;
+          font-size: 2.5rem;
+          font-weight: bolder;
+        }
+      
+        h3 {
+          color: #999;
+        }
+      
+        .more-about-me {
+          .heading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+      
+            h3 {
+              color: #fff;
+              font-size: 2rem;
+            }
+      
+            hr {
+              width: 250px;
+              margin-left: 20px;
+              color: #999;
+              display: inline;
+            }
+          }
+      
+          p {
+            color: #999;
+            font-size: 1.7rem;
+            line-height: 2;
+          }
+      
+          ul {
+            // border: 1px solid red;
+            color: #999;
+            list-style-type: square;
+            line-height: 2;
+            font-size: 1.7rem;
+          }
+      
+          h3 {
+            font-size: 2rem;
+          }
+        }
 
       h1 {
         color: goldenrod;
         font-size: 4rem;
         font-weight: bold;
+        text-align: center;
       }
   
       hr {
@@ -1283,12 +1427,12 @@ a{
       }
     }
     
-    @keyframes underline {
-      0% {width: 0;}
-      25% {width: 25%;}
-      50% {width: 50%;}
-      75% {width: 75%;}
-      100% {width: 100%;}
-    }
+    // @keyframes underline {
+    //   0% {width: 0;}
+    //   25% {width: 25%;}
+    //   50% {width: 50%;}
+    //   75% {width: 75%;}
+    //   100% {width: 100%;}
+    // }
   }
    
