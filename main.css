@@ -49,8 +49,8 @@ body {
     z-index: 1;
     border-bottom: #555 solid 1px;
     display: none;
-    -webkit-animation: smoothDrop 0.5s ease-in;
-            animation: smoothDrop 0.5s ease-in;
+    -webkit-animation: smoothDrop 0.5s ease;
+            animation: smoothDrop 0.5s ease;
   }
   nav ul li {
     padding: 15px;
@@ -382,6 +382,9 @@ body {
     border-radius: 5px;
     overflow: hidden;
     cursor: pointer;
+  }
+  .section-f .tiidelab-img-container .tiidelab-image:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   .section-f .tiidelab-img-container .tiidelab-image img {
     height: 300px;
@@ -815,6 +818,9 @@ body {
     overflow: hidden;
     cursor: pointer;
   }
+  .section-f .tiidelab-img-container .tiidelab-image:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
   .section-f .tiidelab-img-container .tiidelab-image img {
     height: 300px;
   }
@@ -1215,6 +1221,9 @@ body {
     border-radius: 5px;
     overflow: hidden;
     cursor: pointer;
+  }
+  .section-f .tiidelab-img-container .tiidelab-image:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   .section-f .tiidelab-img-container .tiidelab-image img {
     height: 300px;
