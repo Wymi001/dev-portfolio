@@ -45,7 +45,7 @@ body {
     background-color: #333;
     width: 100%;
     padding: 10px;
-    height: 350px;
+    min-height: 300px;
     z-index: 1;
     border-bottom: #555 solid 1px;
     display: none;
