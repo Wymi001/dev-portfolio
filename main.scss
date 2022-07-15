@@ -51,16 +51,19 @@ nav{
         // background-color: rgba($color: #333, $alpha: 0.8);
         width: 100%;
         padding: 10px;
+        height: 350px;
         z-index: 1;
         border-bottom: #555 solid 1px;
         display: none; //to be revealed with JS
-        transition: all 0.5s ease-in;
-
+        animation: smoothDrop 0.5s ease-in;
+        
         li{
           padding: 15px;
+          animation: dropList 1s ease-in;
+          // transition: all 1s ease-in-out;
           &:hover{
             background-color: #222;
-            transition: all 0.3s ease-in;
+            transition: all 0.3s ease-in-out;
           }
         }
 
@@ -469,6 +472,26 @@ a{
     text-decoration: none;
   }
 }
+}
+@keyframes smoothDrop {
+  0% {
+    // transform: translateX(300px);
+    height: 0;
+  }
+  100% {
+    // transform: translateX(0);
+    height: 350px;
+  }
+}
+@keyframes dropList {
+  0% {
+    transform: translateX(-300px);
+    // height: 0;
+  }
+  100% {
+    transform: translateX(0);
+    // height: 0;
+  }
 }
   }
   @media (min-width: 601px) and (max-width: 1000px) {

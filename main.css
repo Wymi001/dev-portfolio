@@ -45,17 +45,21 @@ body {
     background-color: #333;
     width: 100%;
     padding: 10px;
+    height: 350px;
     z-index: 1;
     border-bottom: #555 solid 1px;
     display: none;
-    transition: all 0.5s ease-in;
+    -webkit-animation: smoothDrop 0.5s ease-in;
+            animation: smoothDrop 0.5s ease-in;
   }
   nav ul li {
     padding: 15px;
+    -webkit-animation: dropList 1s ease-in;
+            animation: dropList 1s ease-in;
   }
   nav ul li:hover {
     background-color: #222;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
   }
   nav ul a {
     font-size: 1.7rem;
@@ -412,6 +416,38 @@ body {
   }
   .footer a:hover {
     text-decoration: none;
+  }
+  @-webkit-keyframes smoothDrop {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 350px;
+    }
+  }
+  @keyframes smoothDrop {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 350px;
+    }
+  }
+  @-webkit-keyframes dropList {
+    0% {
+      transform: translateX(-300px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes dropList {
+    0% {
+      transform: translateX(-300px);
+    }
+    100% {
+      transform: translateX(0);
+    }
   }
 }
 @media (min-width: 601px) and (max-width: 1000px) {
